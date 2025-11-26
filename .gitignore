@@ -1,0 +1,46 @@
+# Node / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.so
+*.pyc
+
+# Virtualenvs and env files
+venv/
+.venv/
+env/
+/.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/output/
+notebooks/figures/
+
+# Test / tooling
+.pytest_cache/
+.cache/
+
+# Data and outputs - do not commit large datasets or generated outputs
+data/
+Data/
+output/
+output/**
+*.csv
+*.sqlite3
+*.db
+
+# Keep project docs and source tracked (add explicitly when needed)
+# Examples to commit: README.md, SUMMARY.md, requirements.txt, src/, scripts/, notebooks/, tests/
+
+# Ignore local-only or sensitive files
+secrets.json
+credentials.json
+
+# Misc
+*.log
+
